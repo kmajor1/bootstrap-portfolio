@@ -1,70 +1,129 @@
 <!doctype <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    
+
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--<link rel="stylesheet" type="text/css" href="./style.css"> --> 
 
-    
+
 </head>
+
 <body>
-    <nav class="nav flex-column flex-sm-row justify-content-end mb-sm-4">
-       <a class="nav-link" href="./index.html">About Me</a>
-       <a class="nav-link" href="./portfolio.html">Portfolio</a>
-       <a class="nav-link" href="./contact.html">Contact</a>
+    <!-- navigation bar -->
+    <nav class="navbar mb-sm-4">
+        <div class="nav-items">
+        <a class="nav-link" href="./index.html">About Me</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+    </div>
     </nav>
-    <div class="container mx-auto" style="width:50%">
+    <!-- main content container -->
+    <div class="container mx-auto mb-sm-5" style="width:50%">
+        <!-- first row -->
         <div class="row">
             <div class="col-sm-6">
-                <div class="card bg-dark text-white">
+                <div class="card bg-dark text-white mb-4">
                     <img class="card-img" alt="Hangman" src="http://via.placeholder.com/225X225">
                     <div class="card-img-overlay">
                         <h6 class="card-title text-truncate">
-                            Hangman Project 
+                            Hangman Project
                         </h6>
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">This is a project that plays a simple hangman style word puzzle.</p>
                         </div>
-                    </div> 
-                </div>
-            </div>
-                <div class="col-sm-6">
-                    <div class="card bg-dark text-white">
-                        <img class="card-img" alt="something" src="http://via.placeholder.com/225X225">
-                        <div class="card-img-overlay">
-                            <h6 class="card-title text-truncate">
-                                Trivia Project
-                            </h6>
-                            <div class="card-body d-none d-lg-block">
-                                <p class="card-text">
-                                    This a project that re-creates the famous Jeopardy Game Show!
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card bg-dark text-white">
-                        <img class="card-img" alt="something" src="http://via.placeholder.com/225X225">
-                        <div class="card-img-overlay">
-                            <h6 class="card-title text-truncate">Battletoads</h6>
-                            <div class="card-body d-none d-lg-block">
-                                <p class="card-text">
-                                    This is another test project description 
-                                </p>
-                            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="something" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">
+                            Trivia Project
+                        </h6>
+                        <div class="card-body d-none d-lg-block">
+                            <p class="card-text">
+                                This a project that re-creates the famous Jeopardy Game Show!
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    <footer class="footer fixed-bottom">
+        <!-- second row -->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="something" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">Battletoads</h6>
+                        <div class="card-body d-none d-lg-block">
+                            <p class="card-text">
+                                This is another test project description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="RPG Game" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">
+                            RPG Game
+                        </h6>
+                        <div class="card-body d-none d-lg-block">
+                            <p class="card-text">This is a simple RPG Game with fun graphics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="UofT Widget" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">UofT Widget</h6>
+                        <div class="card-body d-none d-lg-block">
+                            <p class="card-text">This is a class planning widget</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="Rock Paper Scissors" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">Rock Paper Scissors</h6>
+                        <p class="card-body d-none d-lg-block">This is a simple Rock Paper Scissors best of three game.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card bg-dark text-white mb-4">
+                    <img class="card-img" alt="Zombie Game" src="http://via.placeholder.com/225X225">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title text-truncate">Zombie Game</h6>
+                        <p class="card-body d-none d-lg-block">This is a "The Walking Dead" RPG based Zombie game.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="footer fixed-bottom mt-sm-4">
         test
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
