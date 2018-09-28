@@ -21,16 +21,17 @@ input {
 body {
     background-image: url(./assets/images/gravel.png);
     margin: 1px; 
+    padding-top: 100px; 
    
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    text-align: right; 
+    /* text-align: right;  */
     color: black;
     font-family: arial, Arial, Helvetica, sans-serif;
-    font-size: 1.3vw; 
+    /* font-size: 1.3vw;  */
 }
 
 a:hover {
@@ -70,7 +71,7 @@ ul {
 nav {
     border: 1px solid #cccccc; 
     
-    background-color: #ffffff; 
+ 
 
     
 }
