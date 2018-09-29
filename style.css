@@ -1,28 +1,8 @@
 
-
-input {
-    margin-left: 20px; 
-    margin-bottom: 10px; 
-}
-
-.inputButton {
-    margin: 0; 
-    
-}
-
-.form-label  {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    color: #777777;
-    font-size: 12pt; 
-    margin: 0 5px; 
-}
-
 body {
     background-image: url(./assets/images/gravel.png);
     margin: 1px; 
     padding-top: 100px; 
-   
 }
 
 a {
@@ -38,96 +18,31 @@ a:hover {
     text-decoration: underline; 
 }
 
-/*
+
 p {
     font-family: Arial, Helvetica, sans-serif; 
-    color: #777777; 
-    text-align: center; 
-    font-size: 1.5vw; 
-    padding: 5px; 
-}
-*/
-#biography {
-    text-align: left; 
-    margin-top: 20px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
     background-color: #4aaaaf; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff; 
-    
-}
-
-ul, li {
-    display: inline; 
-}
-
-ul { 
-    margin-left: 30%; 
-    
 }
 
 nav {
     border: 1px solid #cccccc; 
-    
- 
+}
 
-    
+#footerText {
+    padding: 5px; 
 }
 
 
 
 
 
-.blank {
-    width: 25%; 
-    float: left; 
-    margin: 0; 
-}
-
-.name {
-    width: 50%; 
-    margin: 0; 
-}
-
-.links {
-     
-    width: 25%; 
-    float: right; 
-}
 
     
-/* portfolio styles */
-
-.section-title {
-    color: #4aaaaf; 
-    background-color: #ffffff; 
-    border-bottom: 2px solid #cccccc;
-    margin-left: 5px; 
-    margin-right: 5px;  
-}
-
-.portfolio::after {
-
-    content: "";
-    display: table;
-    clear: both;
-
-}
-
-.proj-column {
-    width: 45%; 
-    
-}
-
-.l {
-    float: left; 
-}
-
-.r {
-    float: right; 
-}
 
 
 
@@ -135,36 +50,10 @@ nav {
 
 
 
-.portfolio {
-    width: 50%; 
-    margin: 0 auto; 
-    margin-bottom: 100px; 
-    position: relative; 
-    top: 60px; 
-    border: 10px solid #dddddd; 
-    background-color: #ffffff; 
-    
-}
 
-.contact { 
-    width: 50%; 
-    margin: 0 auto; 
-    position: relative; 
-    top: 60px; 
-    border: 10px solid #dddddd; 
-    background-color: #ffffff; 
-}
 
-.contact::after {
-    display: table; 
-    content: ""; 
-    clear: both; 
-     
-}
 
-#contactbody {
-padding: 5px; 
-}
+
 
 
 
