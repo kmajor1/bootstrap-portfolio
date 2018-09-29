@@ -6,10 +6,10 @@ body {
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
     /* text-align: right;  */
-    color: black;
+    /* color: black; */
     font-family: arial, Arial, Helvetica, sans-serif;
     /* font-size: 1.3vw;  */
 }
@@ -33,9 +33,17 @@ nav {
     border: 1px solid #cccccc; 
 }
 
+.container {
+    border: 10px solid #dddddd; 
+    background-color: #ffffff; 
+    padding-top: 10px; 
+}
+
 #footerText {
     padding: 5px; 
 }
+
+
 
 
 
