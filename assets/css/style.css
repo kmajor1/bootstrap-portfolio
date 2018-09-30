@@ -43,30 +43,13 @@ nav {
     padding: 5px; 
 }
 
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section-title {
+    color: #4aaaaf; 
+    background-color: #ffffff; 
+    border-bottom: 2px solid #cccccc;
+    margin-left: 5px; 
+    margin-right: 5px;  
+ }
 
 /* about me styles */ 
 #headshot {
